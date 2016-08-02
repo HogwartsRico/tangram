@@ -553,7 +553,7 @@ Object.assign(Points, {
 
         for (var i = 0; i < 2; i++){
             var angle = label.angle[i];
-            size[0] = label.collapsed_size[i];
+            size[0] = label.collapsed_size[i] + 30;
             var offset = label.offsets[i];
 
             var texcoord;
